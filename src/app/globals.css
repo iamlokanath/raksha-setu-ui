@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: var(--rs-canvas);
+  color: var(--rs-text);
+  font-family: var(--font-sans), var(--font-deva), var(--font-oriya), sans-serif;
+}
+
+.panel {
+  border: 1px solid #e4eef8;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(27, 82, 164, 0.06);
+}
